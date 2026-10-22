@@ -1,0 +1,23 @@
+
+#include <stdio.h>
+
+int main() {
+    printf("Experiment 5.1\n");
+    printf("Weka Knowledge Flow Application\n");
+    printf("--------------------------------\n");
+
+    printf("1. Association Rules: Apriori and FP-Growth\n");
+    printf("2. Cross-Validation using J48\n");
+    printf("3. ROC Curves: J48 and Random Forest\n");
+
+    printf("\nInput Dataset: weather.nominal.arff\n");
+
+    printf("\nExpected Results:\n");
+    printf("- Association rules\n");
+    printf("- Accuracy and confusion matrix\n");
+    printf("- ROC curves and AUC values\n");
+
+    printf("\nRun the algorithms using Weka Knowledge Flow.\n");
+
+    return 0;
+}
